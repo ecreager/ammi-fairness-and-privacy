@@ -37,10 +37,16 @@ subset $S \subseteq R$, $Pr[M(x) \in S] \leq e^{\epsilon} Pr[M(y)\in S] .$
 
 \item[2.] Prove that if $M_1,...,M_k$ are $(\epsilon,\delta)$-DP mechanisms,
 then any convex combination is also a $(\epsilon,\delta)$-DP mechanism.
-(A convex combination is defined by a distribution $p$ over $\{1,\ldots,k\}$. 
-The
-convex combination mechanism first picks $i \in [k]$ according to $p$,
-and then runs mechanism $M_i$ on $x$.)
+        (A convex combination mechanism $M$ on database $x$ first picks $i \in \{1\ldots k\}$
+according to some distribution over $\{1\ldots k\}$, and then runs
+mechanism $M_i$ on $x$. Thus the distribution of output values of
+$M(x)$ is a convex combination of the distributions of output values
+        of $M_1(x),....,M_k(x)$.)
+
+%(A convex combination is defined by a distribution $p$ over $\{1,\ldots,k\}$. 
+%The
+%convex combination mechanism first picks $i \in [k]$ according to $p$,
+%and then runs mechanism $M_i$ on $x$.)
 
 \item[3.] Prove that any mechanism $M$ that is deterministic
 is not differentially private.
