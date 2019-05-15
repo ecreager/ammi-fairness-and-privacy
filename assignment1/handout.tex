@@ -48,8 +48,10 @@ $M(x)$ is a convex combination of the distributions of output values
 %convex combination mechanism first picks $i \in [k]$ according to $p$,
 %and then runs mechanism $M_i$ on $x$.)
 
-\item[3.] Prove that any mechanism $M$ that is deterministic
-is not differentially private.
+    \item[3.] Prove that any non-trivial\footnote{
+            Here we mean a deterministic mechanism that doesn't output a
+            constant value for every database.
+        } deterministic mechanism $M$ is not differentially private.
 
 \item[4a.] (Group Privacy.)
 Let $M$ be a mechanism mapping $\mathbb{N}^{|X|}$ to $R$,
