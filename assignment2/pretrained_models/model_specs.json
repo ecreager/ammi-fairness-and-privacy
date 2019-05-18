@@ -1,0 +1,82 @@
+{
+  "model0": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 0.03,
+    "lmbda": 0.0005,
+    "num_epochs": 10,
+    "num_examples": 13006
+  },
+  "model1": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 0.03,
+    "lmbda": 0.005,
+    "num_epochs": 300,
+    "num_examples": 13006
+  },
+  "model2": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 0.3,
+    "lmbda": 0.5,
+    "num_epochs": 3,
+    "num_examples": 13006
+  },
+  "model3": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 0.3,
+    "lmbda": 0.05,
+    "num_epochs": 300,
+    "num_examples": 13006
+  },
+  "model4": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 0.03,
+    "lmbda": 5.0,
+    "num_epochs": 10,
+    "num_examples": 13006
+  },
+  "model5": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 1.0,
+    "lmbda": 0.0005,
+    "num_epochs": 3,
+    "num_examples": 13006
+  },
+  "model6": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 0.1,
+    "lmbda": 0.5,
+    "num_epochs": 10,
+    "num_examples": 13006
+  },
+  "model7": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 0.3,
+    "lmbda": 5.0,
+    "num_epochs": 3,
+    "num_examples": 13006
+  },
+  "model8": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 0.3,
+    "lmbda": 0.0005,
+    "num_epochs": 100,
+    "num_examples": 13006
+  },
+  "model9": {
+    "batch_size": 250,
+    "data_seed": 3771,
+    "learning_rate": 0.01,
+    "lmbda": 0.005,
+    "num_epochs": 10,
+    "num_examples": 13006
+  }
+}
